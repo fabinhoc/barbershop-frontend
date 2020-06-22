@@ -6,6 +6,9 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'spa',
+  env: {
+    baseUrl: 'http://localhost:4040/api'
+  },
   /*
   ** Headers of the page
   ** See https://nuxtjs.org/api/configuration-head
@@ -31,6 +34,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    { src: '~/plugins/vuelidate.js', ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
