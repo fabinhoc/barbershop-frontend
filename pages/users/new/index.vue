@@ -73,7 +73,7 @@
                 <v-btn type="submit" class="primary">
                   Salvar
                 </v-btn>
-                <v-btn class="default" to="/">
+                <v-btn class="default" to="/home">
                   Cancelar
                 </v-btn>
               </v-form>
